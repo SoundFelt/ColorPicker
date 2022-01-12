@@ -1,0 +1,61 @@
+.navbar {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+}
+
+.logo {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(218, 218, 218, 0);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.slider-level {
+   color: rgb(32, 32, 32);
+}
+
+.MuiSlider-thumb.Mui-focusVisible, .MuiSlider-thumb:hover {
+    box-shadow:none !important;
+
+}
+
+.MuiSlider-root {
+    width: 200px !important;
+    margin: 3px 10px 0;
+}
+
+.select-container {
+    height: 80%;
+    margin-left: auto;
+}
+.select {
+    height: 100%;
+    margin: 0 20px;
+}
+
+@media (max-width: 992px) {
+    .logo {
+       display: none;
+    }
+    .slider-container {
+        margin-left: 5px;
+    }
+}

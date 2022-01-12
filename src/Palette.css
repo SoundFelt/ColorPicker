@@ -1,0 +1,36 @@
+.container {
+    height: 100vh;
+}
+
+.color-boxes-container{
+    height: 88%;
+}
+
+.footer-container footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: auto;
+    background-color: rgb(202, 202, 202);
+}
+
+.footer-container footer span {
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+
+.footer-container footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .color-boxes-container {
+        height: 800px;
+    }
+}
+@media (max-width: 576px) {
+    .color-boxes-container {
+        height: 1000px;
+    }
+}
